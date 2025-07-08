@@ -1,0 +1,32 @@
+# Base
+numpy
+pandas
+matplotlib
+seaborn
+
+# Signal Processing
+scipy
+pywavelets
+librosa
+
+# Machine Learning
+scikit-learn
+tensorflow
+keras
+torch
+
+# Visualisation
+plotly
+bokeh
+
+# Utilitaires
+tqdm
+joblib
+# pickle est inclus dans la stdlib Python
+
+# Développement
+jupyter
+notebook
+pytest
+black
+flake8 

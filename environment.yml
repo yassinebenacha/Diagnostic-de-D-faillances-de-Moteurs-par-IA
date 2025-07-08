@@ -1,0 +1,30 @@
+name: diagnostic-moteur-ia
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - pywavelets
+  - librosa
+  - scikit-learn
+  - tensorflow
+  - keras
+  - pytorch
+  - plotly
+  - bokeh
+  - tqdm
+  - joblib
+  - jupyter
+  - notebook
+  - pytest
+  - black
+  - flake8
+  - pip
+  - pip:
+      # Pour torch (PyPI: torch, conda: pytorch)
+      - torch 

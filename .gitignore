@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data
+/data/raw/*
+/data/processed/*
+/data/datasets/*
+!/data/raw/.gitkeep
+!/data/processed/.gitkeep
+!/data/datasets/.gitkeep
+
+# Results
+/results/*
+!/results/.gitkeep
+
+# Config
+/config/*.local
+
+# Environnements
+.env
+.venv
+venv/
+ENV/
+
+# Autres
+.DS_Store
+*.log 
